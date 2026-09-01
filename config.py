@@ -9,10 +9,10 @@ if path.exists(".env"):
 #----------------------------------- REQUIRED --------------------------------------#
 
 
-API_ID = int(getenv("10079905", None))
-API_HASH = getenv("e4a5fa251e2e055f26e5c2add8401530", None)
-SESSION1 = getenv("BQC86fAAX3P3focETLU9i2MuywIhrmcoVGZfNikwZ4JRd3BtWZrRymgG16n6nQ_gknaB7ERl1Qlh9bixAlffytP-nsSZ4Y9U9XKja-0h49IQVPr2R9L5RErQwNSCV1llhvIFIzdkzrR3eZJceCtxU_0qyv9tGtT_hR4xQcCYZYFVArf-ABFsf5l0-WjmwmudwDegUy6LG1fStl_ptXSvdCA7jxE_ClrQyCQJLTWhW8DLKYyplVwiBLAbhpLlQIL7XXCh4-CjIPCZMyukGHQQpwszZueOF0wgdUQq7TcYMfh9l0BxbTqwpCc51lanIZVeQoU3cFd2ZVq0nHOUNlczPOKRDBoeJAAAAAH-nwzIAA", None)
-BOT_TOKEN = getenv("8582978557:AAHwJ2MvCpIKEOB9FbarmXzhdXSIJOpZSgY", None)
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
+SESSION1 = getenv("SESSION1")
+BOT_TOKEN = getenv("BOT_TOKEN")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "8582978557").split()))
 
 
