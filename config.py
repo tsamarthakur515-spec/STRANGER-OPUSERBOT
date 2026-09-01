@@ -23,7 +23,7 @@ SESSION3 = getenv("SESSION3")
 SESSION4 = getenv("SESSION4")
 SESSION5 = getenv("SESSION5")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/itzshukla/STRANGER-OPUSERBOT")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "")
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -35,7 +35,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6919199044").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "8841848847").split()))
 
 for y in OWNER_ID:
     SUDO_USERS.append(y)
