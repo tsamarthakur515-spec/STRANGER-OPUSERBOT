@@ -12,7 +12,7 @@ if path.exists(".env"):
 API_ID = int(getenv("API_ID", None))
 API_HASH = getenv("API_HASH", None)
 SESSION1 = getenv("SESSION1", None)
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+BOT_TOKEN = getenv("8582978557:AAHwJ2MvCpIKEOB9FbarmXzhdXSIJOpZSgY", None)
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6762113050").split()))
 
 
